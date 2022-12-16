@@ -1,3 +1,8 @@
-.input {
-  margin-right: 15px;
+html {
+  background: linear-gradient(280deg, #2193b0 , #6dd5ed);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.add-event {
+  border-radius: 10px;
+  cursor: pointer;
 }

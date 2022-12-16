@@ -58,11 +58,12 @@ function render() {
     const deleteButton = document.createElement('button');
     deleteButton.innerText ='Delete';
     deleteButton.style='margin-left: 12px';
+    deleteButton.style='border-radius: 10px';
     deleteButton.onclick = deleteEvent;
     deleteButton.id = events.id;
     element.appendChild(deleteButton);
     const todoList = document.getElementById('todo-list');
-    todoList.appendChild(element)
+    todoList.appendChild(element);
   });
 }
 // controller section
